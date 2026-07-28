@@ -6,3 +6,5 @@ services:
     envVars:
       - key: PORT
         value: "10000"
+      - key: ADDITIONAL_PORTS
+        value: "443,3000"
